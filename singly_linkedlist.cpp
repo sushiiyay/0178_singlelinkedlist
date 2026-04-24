@@ -12,5 +12,9 @@ class LinkedList;
 {
     Node *START;
 
-public
+public:
+    LinkedList()
+    {
+        START = NULL;
+    }
 }
